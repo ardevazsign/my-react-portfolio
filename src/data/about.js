@@ -56,4 +56,10 @@ export const aboutList4 = [
     year: '2023-2024',
     position: 'Full Stack Developer',
   },
+  {
+    id: 2,
+    company: 'TPT Inc.',
+    year: '2006-2022',
+    position: 'Non-IT related, Customer services role',
+  },
 ];
