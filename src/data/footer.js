@@ -1,3 +1,3 @@
 export const footerDetails = {
-  name: 'Juan Dela Cruz',
+  name: 'Manuel C. Saavedra Jr.',
 };

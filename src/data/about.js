@@ -1,24 +1,24 @@
 export const aboutMeDetails = {
   position: 'Junior Full Stack Developer',
   description:
-    "Greetings! I'm a driven developer with a passion for crafting immersive digital experiences. My expertise lies in HTML, CSS, JavaScript, React, and Node.js. Collaborating within teams has equipped me with practical experience, enhancing my ability to seamlessly integrate my skills into diverse projects",
+    "Greetings! As a recent graduate from a coding Bootcamp, I've developed a strong foundation in web development technologies, including HTML, CSS, JavaScript, React, and Node.js. My one-year of intensive training has equipped me with practical skills and a passion for creating innovative digital solutions. I've had the opportunity to collaborate with talented classmates on a group project during my Bootcamp, where I contributed significantly to the development process and learned the importance of teamwork and effective communication. I'm eager to apply my skills and knowledge to real-world projects and continue growing as a developer. ",
 };
 
 export const aboutList1 = [
   {
     id: 1,
     description: 'Email',
-    value: 'juandelacruz@email.com',
+    value: 'newojunior@email.com',
   },
   {
     id: 2,
     description: 'Phone',
-    value: '+639123456789',
+    value: '+639167522487',
   },
   {
     id: 3,
     description: 'City',
-    value: 'Baguio City',
+    value: 'Tanauan City',
   },
 ];
 
@@ -31,7 +31,7 @@ export const aboutList2 = [
   {
     id: 2,
     description: 'Hobbies',
-    value: 'Basketball, Computer Games, Hiking',
+    value: 'Basketball, Computer Assembling, Coding',
   },
   {
     id: 3,
@@ -43,28 +43,17 @@ export const aboutList2 = [
 export const aboutList3 = [
   {
     id: 1,
-    school: 'Hogwarts University',
-    year: '2006',
-    course: 'Elementary',
-  },
-  {
-    id: 2,
-    school: 'Hogwarts University',
-    year: '2012',
-    course: 'Senior High School',
-  },
-  {
-    id: 3,
-    school: 'Hogwarts University',
-    year: '2016',
-    course: 'Bachelor of Science in Computer Science',
+    school:
+      'Camarines Sur State Agricultural College now Known as Central Bicol State University of Agriculture- Calabanga Campus',
+    year: '2003',
+    course: 'Diploma in Industrial Technology major in Electronics Technology',
   },
 ];
 export const aboutList4 = [
   {
     id: 1,
     company: 'GoIT Bootcamp',
-    year: '2024',
+    year: '2023-2024',
     position: 'Full Stack Developer',
   },
 ];
