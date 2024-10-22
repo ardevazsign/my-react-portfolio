@@ -1,5 +1,5 @@
 import css from './Home.module.css';
-import homeImage from '../../images/home-1.png';
+import homeImage from '../../images/image1.jpg';
 import { Socials } from '../Socials/Socials';
 import { homeDetails } from '../../data/home';
 

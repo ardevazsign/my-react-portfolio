@@ -1,5 +1,5 @@
 import css from './About.module.css';
-import aboutImage from '../../images/about-1.png';
+import aboutImage from '../../images/image1.jpg';
 // prettier-ignore
 import { aboutMeDetails, aboutList1, aboutList2, aboutList3, aboutList4 } from '../../data/about';
 

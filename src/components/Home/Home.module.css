@@ -1,4 +1,5 @@
 .homeContainer {
+  background-color: darkslategray;
   height: 100%;
   padding: 80px 0;
   display: flex;
@@ -10,6 +11,10 @@
   @media (min-width: 768px) {
     flex-direction: row;
     padding: 200px 0;
+  }
+  .homeImage {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+    border-radius: 500px;
   }
 
   @media (min-width: 1200px) {
