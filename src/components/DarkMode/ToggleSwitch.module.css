@@ -1,0 +1,61 @@
+.darkModeHolder {
+  position: relative;
+  cursor: pointer;
+  width: 92px;
+  height: 24px;
+  border-radius: 100px;
+  margin-right: 20px;
+  box-shadow: var(--boxShadow);
+  transition: background-color 500ms ease-in-out;
+}
+.toggle {
+  visibility: hidden;
+  transition: all;
+  transition-duration: 500;
+  margin: 4px;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 100px;
+  background-color: #007fff;
+  transform: translateX(50px, 0);
+}
+.toggle + label {
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+.toggle + label::before {
+  content: '';
+  height: 14px;
+  width: 26px;
+  border-radius: 50px;
+  background-color: var(--toggle-bg);
+  margin-right: 4px;
+  transition: background-color 400ms ease-in-out;
+  box-shadow: var(--boxShadow);
+  border: 0.1px solid white;
+}
+.toggle + label::after {
+  content: '';
+  height: 18px;
+  width: 18px;
+  border-radius: 50px;
+  background-color: var(--toggle-fg);
+  position: absolute;
+  border: 0.1px solid white;
+  transition: background-color 400ms ease-in-out, transform 400ms ease-in-out;
+}
+.toggle:checked + label::after {
+  transform: translateX(80%);
+}
+label {
+  gap: 4px;
+  position: absolute;
+  top: 20%;
+  left: -27%;
+  font-size: 10px;
+  font-weight: 700;
+  font-family: 'Merienda', sans-serif;
+  margin-left: 28px;
+}

@@ -1,21 +1,59 @@
 /* Custom Font */
-@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Oswald:wght@200..700&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Merienda:wght@300..900&family=Oswald:wght@200..700&display=swap');
 
 /* CSS VARIABLES */
 :root {
-  --PRIMARY: aqua;
-  --SECONDARY: #00ffff;
-  --DARK: white;
-  --LIGHT: #edf2f4;
+  --bodyBackground: white;
+  --foreground-color: blue;
+  --primary-text-color: #0a0a0a;
+  --secondary-text-color: #ffffff;
+  --link-color: #00ffff;
+  --toggle-bg: #f2f6f2;
+  --toggle-fg: #ffd000;
+  --textShadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  --boxShadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  --gradient-color: rgba(255, 255, 255, 0.6);
+}
+
+[data-theme='dark'] {
+  --bodyBackground: #343434;
+  --foreground-color: #007fff;
+  --primary-text-color: white;
+  --secondary-text-color: #0a0a0a;
+  --toggle-bg: #edf2f4;
+  --toggle-fg: #ffd000;
+  --textShadow: 2px 2px 4px rgba(7, 239, 251, 0.8);
+  --boxShadow: 0 2px 4px rgba(2, 255, 247, 0.8);
+  --gradient-color: linear-gradient(
+    to right,
+    #343434,
+    #e5e4e2,
+    #8b8589,
+    #343434,
+    #e5e4e2,
+    #8b8589
+  );
 }
 
 body {
+  background-color: var(--bodyBackground);
+  color: var(--primary-text-color);
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: 'Oswald', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-image: linear-gradient(
+    to right,
+    #e5e4e2,
+    #555555,
+    #ffffff,
+    #bebfc5,
+    #8b8589,
+    #555555,
+    #2a3439
+  ); */
 }
 
 code {
