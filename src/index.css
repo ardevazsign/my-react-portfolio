@@ -4,19 +4,28 @@
 /* CSS VARIABLES */
 :root {
   --bodyBackground: white;
-  --foreground-color: blue;
+  --foreground-color: rgb(9, 9, 231);
   --primary-text-color: #0a0a0a;
   --secondary-text-color: #ffffff;
-  --link-color: #00ffff;
   --toggle-bg: #f2f6f2;
   --toggle-fg: #ffd000;
   --textShadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   --boxShadow: 0 2px 4px rgba(0, 0, 0, 0.4);
   --gradient-color: rgba(255, 255, 255, 0.6);
+
+  --hover-color: #23f1f1;
+  --link-color: #007fff;
+  --fill-color: #f0f8ff;
+  --fill-hover: #100c08;
 }
 
 [data-theme='dark'] {
-  --bodyBackground: #343434;
+  --hover-color: #007fff;
+  --link-color: #23f1f1;
+  --fill-color: #010b13;
+  --fill-hover: #f0f8ff;
+
+  --bodyBackground: #111111;
   --foreground-color: #007fff;
   --primary-text-color: white;
   --secondary-text-color: #0a0a0a;
@@ -25,13 +34,14 @@
   --textShadow: 2px 2px 4px rgba(7, 239, 251, 0.8);
   --boxShadow: 0 2px 4px rgba(2, 255, 247, 0.8);
   --gradient-color: linear-gradient(
-    to right,
+    to top,
+    #111111,
     #343434,
-    #e5e4e2,
-    #8b8589,
+    #111111,
+    #111111,
+    #111111,
     #343434,
-    #e5e4e2,
-    #8b8589
+    #111111
   );
 }
 

@@ -8,6 +8,11 @@
   justify-content: space-between;
   row-gap: 20px;
   box-shadow: var(--boxShadow);
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid var(--link-color);
+  border-bottom: 2px solid var(--link-color);
+  border-radius: 20px;
 
   @media (min-width: 768px) {
     flex-direction: row;
@@ -15,12 +20,18 @@
   }
   .homeImage {
     box-shadow: var(--boxShadow);
-    border-radius: 500px;
-    margin-right: 20px;
+    border-top-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+    /* margin-right: 30px; */
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid var(--link-color);
+    border-bottom: 2px solid var(--link-color);
   }
 
   @media (min-width: 1200px) {
     height: 85vh;
+    margin-right: auto;
   }
 }
 
@@ -39,6 +50,7 @@
 
 .homeName {
   font-size: 40px;
+  border-bottom: 3px solid var(--link-color);
 
   @media (min-width: 1024px) {
     font-size: 60px;
@@ -46,13 +58,18 @@
 }
 
 .homeText {
-  font-size: 14px;
+  font-size: 16px;
   margin-left: 80px;
 
-  @media (min-width: 768px) {
-    font-size: 20px;
+  @media (max-width: 768px) {
+    font-size: 18px;
+    margin: 0;
   }
 }
 .socialHolder {
-  margin-left: 120px;
+  margin-left: 100px;
+
+  @media (max-width: 768px) {
+    margin: 0;
+  }
 }

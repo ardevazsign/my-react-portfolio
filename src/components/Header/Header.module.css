@@ -5,11 +5,19 @@
   justify-content: space-between;
   padding: 16px 0;
   margin-bottom: 16px;
+  margin-top: 8px;
+  border-radius: 10px;
+  border-top: 2px solid #ffffff;
+  border-left: 2px solid #ffffff;
+  border-bottom: 2px solid var(--link-color);
+  border-right: 2px solid var(--link-color);
   box-shadow: var(--boxShadow);
 }
 
 .hamburgerIcon {
   display: flex;
+  margin-right: 20px;
+  font-size: 28px;
 
   @media screen and (min-width: 768px) {
     display: none;

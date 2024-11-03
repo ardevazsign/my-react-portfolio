@@ -21,16 +21,20 @@
   justify-content: center;
 
   color: var(--LIGHT);
-  background-color: var(--PRIMARY);
-
+  background-color: var(--link-color);
+  box-shadow: var(--boxShadow);
+  border: 1px solid #ffff;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .socialsLink:hover,
 .socialsLink:focus {
-  background-color: var(--SECONDARY);
+  background-color: var(--hover-color);
 }
 
 .socialsIcon {
-  fill: currentColor;
+  fill: var(--fill-color);
+}
+.socialsIcon:hover {
+  fill: var(--fill-hover);
 }

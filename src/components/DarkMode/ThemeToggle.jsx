@@ -9,10 +9,14 @@ const ThemeToggle = () => {
       onClick={toggleTheme}
       style={{
         padding: '0.5rem 1rem',
-        margin: '1rem',
+        marginRight: '2rem',
         cursor: 'pointer',
         borderRadius: '4px',
-        border: 'none',
+        borderLeft: 'none',
+        borderTop: 'none',
+        borderRight: '1px solid var(--link-color)',
+        borderBottom: '1px solid var(--link-color)',
+        boxShadow: 'var(--boxShadow)',
         background: theme === 'light' ? '#000' : '#fff',
         color: theme === 'light' ? '#fff' : '#000',
       }}

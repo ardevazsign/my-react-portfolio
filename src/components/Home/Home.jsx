@@ -23,8 +23,8 @@ export const Home = () => {
         className={css.homeImage}
         src={homeImage}
         alt={name}
-        width="400"
-        height="500"
+        width="380"
+        height="400"
       />
     </div>
   );
