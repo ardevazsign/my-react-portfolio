@@ -1,3 +1,6 @@
+.projectContainer {
+  margin-top: 40px;
+}
 .projectList {
   display: flex;
   justify-content: center;
@@ -27,13 +30,13 @@
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: var(--SECONDARY);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  background: var(--link-color);
+  box-shadow: var(--boxShadow);
 }
 
 .projectItem::before {
   content: '';
-  background: var(--SECONDARY);
+  background: var(--link-color);
   position: absolute;
   left: 30px;
   right: 30px;
@@ -90,8 +93,8 @@
   position: absolute;
   top: 35px;
   left: 35px;
-  border-top: 3px solid var(--LIGHT);
-  border-left: 3px solid var(--LIGHT);
+  border-top: 3px solid var(--fill-color);
+  border-left: 3px solid var(--fill-color);
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
@@ -104,14 +107,14 @@
   position: absolute;
   bottom: 35px;
   right: 35px;
-  border-bottom: 3px solid var(--LIGHT);
-  border-right: 3px solid var(--LIGHT);
+  border-bottom: 3px solid var(--fill-color);
+  border-right: 3px solid var(--fill-color);
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
 
 .projectLink {
-  color: var(--LIGHT);
+  color: var(--fill-color);
   margin: 0 2px;
   font-size: 28px;
   transition: all ease-in-out 0.3s;
@@ -119,5 +122,5 @@
 
 .projectLink:hover {
   transition: all ease-in-out 0.3s;
-  color: var(--DARK);
+  color: var(--fill-color);
 }

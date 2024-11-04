@@ -1,7 +1,7 @@
 .title {
   font-size: 20px;
-  font-weight: 500;
-  margin: 20px 0;
+  font-weight: 700;
+  /* margin: 20px 0; */
   letter-spacing: 1px;
   text-transform: uppercase;
   color: var(--DARK);
@@ -10,15 +10,15 @@
 .title::after {
   content: '';
   width: 60px;
-  height: 3px;
+  height: 10px;
   display: inline-block;
-  background: var(--PRIMARY);
+  background: var(--link-color);
   margin: 4px 10px;
 }
 
 .subtitle {
-  margin: 20px 0px;
-  font-size: 36px;
+  /* margin: 20px 0px; */
+  font-size: 34px;
   font-weight: 700;
   text-transform: uppercase;
 

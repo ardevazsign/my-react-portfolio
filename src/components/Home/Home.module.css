@@ -22,7 +22,7 @@
     box-shadow: var(--boxShadow);
     border-top-left-radius: 35%;
     border-bottom-right-radius: 35%;
-    /* margin-right: 30px; */
+    margin-right: 10px;
     border-top: 2px solid white;
     border-left: 2px solid white;
     border-right: 2px solid var(--link-color);

@@ -25,14 +25,14 @@
   --fill-color: #010b13;
   --fill-hover: #f0f8ff;
 
-  --bodyBackground: #111111;
+  --bodyBackground: #1b1b1b;
   --foreground-color: #007fff;
   --primary-text-color: white;
   --secondary-text-color: #0a0a0a;
   --toggle-bg: #edf2f4;
   --toggle-fg: #ffd000;
   --textShadow: 2px 2px 4px rgba(7, 239, 251, 0.8);
-  --boxShadow: 0 2px 4px rgba(2, 255, 247, 0.8);
+  --boxShadow: 4px 4px 4px rgba(2, 255, 247, 0.8);
   --gradient-color: linear-gradient(
     to top,
     #111111,

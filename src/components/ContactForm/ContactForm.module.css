@@ -1,6 +1,6 @@
 .contactContainer {
   max-width: 768px;
-  margin: 0 auto;
+  margin: 20px auto;
 
   @media (min-width: 1024px) {
     max-width: 1024px;
@@ -20,6 +20,8 @@
   margin-bottom: 40px;
   row-gap: 40px;
   padding: 10px 20px;
+  box-shadow: var(--boxShadow);
+  border-radius: 40px;
 
   @media (min-width: 768px) {
     flex-direction: row;
@@ -56,6 +58,8 @@
   padding: 60px 20px;
   display: flex;
   flex-direction: column;
+  box-shadow: var(--boxShadow);
+  border-radius: 40px;
 
   @media (min-width: 768px) {
     padding: 60px 60px;
@@ -82,7 +86,7 @@
 .formTextArea {
   display: block;
   border: none;
-  border-bottom: 1px solid var(--DARK);
+  border-bottom: 3px solid var(--link-color);
   background-color: transparent;
   outline: transparent;
   color: var(--DARK);
@@ -138,13 +142,13 @@
 
 .formButton {
   display: block;
-  padding: 20px 10px;
-  width: 120px;
+  padding: 10px 0px;
+  width: 200px;
 
   margin: 0 auto;
-  border: 1px solid var(--primary-orange-color);
-  border-radius: 25px;
-
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+  font-size: 14px;
   font-family: inherit;
   font-style: normal;
   font-weight: 600;
@@ -153,8 +157,9 @@
   text-transform: uppercase;
   cursor: pointer;
 
-  background-color: var(--PRIMARY);
-  color: var(--LIGHT);
+  background-color: var(--link-color);
+  color: var(--fill-color);
+  box-shadow: var(--boxShadow);
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -162,6 +167,6 @@
 
 .formButton:hover,
 .formButton:focus {
-  color: var(--DARK);
-  background-color: var(--SECONDARY);
+  color: var(--fill-hover);
+  background-color: var(--hover-color);
 }
