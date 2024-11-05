@@ -10,7 +10,7 @@ export const contactInfo = [
       <a
         style={{
           textDecoration: 'none',
-          color: '#ffff',
+          color: 'var(--link-color)',
           fontSize: '20px',
         }}
         href="tel:+639167522487"

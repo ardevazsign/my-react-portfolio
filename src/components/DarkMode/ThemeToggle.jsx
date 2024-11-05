@@ -8,6 +8,7 @@ const ThemeToggle = () => {
     <button
       onClick={toggleTheme}
       style={{
+        fontSize: '10px',
         padding: '0.5rem 1rem',
         marginRight: '2rem',
         cursor: 'pointer',
@@ -21,7 +22,7 @@ const ThemeToggle = () => {
         color: theme === 'light' ? '#fff' : '#000',
       }}
     >
-      {theme === 'light' ? 'Dark' : 'Light'} Mode
+      {theme === 'light' ? 'Dark' : 'Light'}Mode
     </button>
   );
 };

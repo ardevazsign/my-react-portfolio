@@ -17,13 +17,17 @@
   --link-color: #007fff;
   --fill-color: #f0f8ff;
   --fill-hover: #100c08;
+  --textColor: #0a0a0a;
+  --special-color: #007fff;
 }
 
 [data-theme='dark'] {
+  --special-color: #1b1b1b;
   --hover-color: #007fff;
-  --link-color: #23f1f1;
+  --link-color: #22f0f0;
   --fill-color: #010b13;
   --fill-hover: #f0f8ff;
+  --textColor: #22f0f0;
 
   --bodyBackground: #1b1b1b;
   --foreground-color: #007fff;

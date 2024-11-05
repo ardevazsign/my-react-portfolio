@@ -47,6 +47,11 @@
   align-items: center;
   justify-content: center;
   color: var(--DARK);
+
+  @media (max-width: 320px) {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 .contactDesc {
@@ -81,15 +86,31 @@
   position: relative;
   margin-bottom: 40px;
 }
-
-.formInput,
 .formTextArea {
+  padding: 25px;
   display: block;
   border: none;
-  border-bottom: 3px solid var(--link-color);
-  background-color: transparent;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: var(--fill-color);
   outline: transparent;
-  color: var(--DARK);
+  color: var(--link-color);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: var(--boxShadow);
+  font-weight: 600;
+}
+
+.formInput {
+  display: block;
+  border: none;
+  border-radius: 10px;
+  padding-left: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: var(--boxShadow);
+  background-color: var(--fill-color);
+  outline: transparent;
+  color: var(--link-color);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -104,7 +125,7 @@
 
 .formInput:focus,
 .formTextArea:focus {
-  border-color: var(--SECONDARY);
+  border-color: var(--link-color);
 }
 
 .formLabel {
@@ -130,7 +151,7 @@
 
 .formInput::placeholder,
 .formTextArea::placeholder {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--PRIMARY);
 }
 

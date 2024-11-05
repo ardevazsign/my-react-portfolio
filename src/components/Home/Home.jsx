@@ -2,6 +2,7 @@ import css from './Home.module.css';
 import homeImage from '../../images/image1.jpg';
 import { Socials } from '../Socials/Socials';
 import { homeDetails } from '../../data/home';
+import DownloadButton from '../dowloadCv/DownloadButton';
 
 export const Home = () => {
   const { name, position, country } = homeDetails;
@@ -16,6 +17,9 @@ export const Home = () => {
         {/* Social Links Component */}
         <div className={css.socialHolder}>
           <Socials />
+        </div>
+        <div className={css.downloadBtnHolder}>
+          <DownloadButton />
         </div>
       </div>
 

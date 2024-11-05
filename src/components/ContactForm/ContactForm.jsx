@@ -34,7 +34,7 @@ export const ContactForm = () => {
               placeholder="Name"
               required
             />
-            <span className={css.formLabel}>Name *</span>
+            <span className={css.formLabel}></span>
           </label>
 
           <label className={css.formField}>
@@ -45,7 +45,7 @@ export const ContactForm = () => {
               placeholder="Email"
               required
             />
-            <span className={css.formLabel}>Email *</span>
+            <span className={css.formLabel}></span>
           </label>
         </div>
 
@@ -56,7 +56,7 @@ export const ContactForm = () => {
             rows="8"
             placeholder="What's on your thoughts?"
           ></textarea>
-          <span className={css.formLabel}>Message</span>
+          <span className={css.formLabel}></span>
         </label>
 
         <button className={css.formButton} type="submit">
