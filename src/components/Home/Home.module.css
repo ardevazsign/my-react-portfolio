@@ -55,6 +55,9 @@
   @media (min-width: 1024px) {
     font-size: 60px;
   }
+  @media (max-width: 415px) {
+    font-size: 30px;
+  }
 }
 
 .homeText {
@@ -63,6 +66,10 @@
 
   @media (max-width: 768px) {
     font-size: 18px;
+    margin: 0;
+  }
+  @media (max-width: 410px) {
+    font-size: 14px;
     margin: 0;
   }
 }
@@ -76,4 +83,11 @@
 
 .downloadBtnHolder {
   margin-left: 150px;
+
+  @media (max-width: 768px) {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

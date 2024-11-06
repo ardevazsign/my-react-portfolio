@@ -64,7 +64,7 @@
   padding: 8px 16px;
   border-radius: 4px;
   text-decoration: none;
-  color: var(--LIGHT);
+  color: var(--fill-color);
   font-weight: 500;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

@@ -38,8 +38,9 @@
   border-bottom: 3px solid var(--link-color);
   border-left: 3px solid #ffffff;
   border-top: 3px solid #ffffff;
+
   @media (min-width: 768px) {
-    margin: 0 auto;
+    margin: 0 4px auto;
   }
 }
 
