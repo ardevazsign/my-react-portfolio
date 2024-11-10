@@ -3,9 +3,11 @@ import homeImage from '../../images/image1.jpg';
 import { Socials } from '../Socials/Socials';
 import { homeDetails } from '../../data/home';
 import DownloadButton from '../dowloadCv/DownloadButton';
+import ViewCv from '../ViewCv/ViewCv';
 
 export const Home = () => {
   const { name, position, country } = homeDetails;
+  const cvUrl = 'https://ardevazsign.github.io/OwenSaavedraCv/';
 
   return (
     <div className={css.homeContainer}>
@@ -17,6 +19,9 @@ export const Home = () => {
         {/* Social Links Component */}
         <div className={css.socialHolder}>
           <Socials />
+        </div>
+        <div className={css.viewResumeBtn}>
+          <ViewCv cvUrl={cvUrl} />
         </div>
         <div className={css.downloadBtnHolder}>
           <DownloadButton />

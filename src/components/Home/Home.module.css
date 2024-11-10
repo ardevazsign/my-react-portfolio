@@ -91,3 +91,13 @@
     align-items: center;
   }
 }
+.viewResumeBtn {
+  margin-left: 150px;
+
+  @media (max-width: 768px) {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
