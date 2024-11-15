@@ -12,3 +12,8 @@
   background-color: var(--hover-color);
   color: var(--fill-hover);
 }
+.paraStatus {
+  color: rgb(93, 241, 93);
+  margin-top: 20px;
+  text-align: center;
+}

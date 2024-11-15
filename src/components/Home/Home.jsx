@@ -2,12 +2,13 @@ import css from './Home.module.css';
 import homeImage from '../../images/image1.jpg';
 import { Socials } from '../Socials/Socials';
 import { homeDetails } from '../../data/home';
-import DownloadButton from '../dowloadCv/DownloadButton';
+import DownloadButton from '../downloadCv/DownloadButton';
 import ViewCv from '../ViewCv/ViewCv';
+import pdfUrl from '../../images/pdf/ardevazsign_github.pdf';
 
 export const Home = () => {
   const { name, position, country } = homeDetails;
-  const cvUrl = 'https://ardevazsign.github.io/OwenSaavedraCv/';
+  const resumeUrl = 'https://ardevazsign.github.io/OwenSaavedraCv/';
 
   return (
     <div className={css.homeContainer}>
@@ -21,10 +22,10 @@ export const Home = () => {
           <Socials />
         </div>
         <div className={css.viewResumeBtn}>
-          <ViewCv cvUrl={cvUrl} />
+          <ViewCv resumeUrl={resumeUrl} />
         </div>
         <div className={css.downloadBtnHolder}>
-          <DownloadButton />
+          <DownloadButton pdfUrl={pdfUrl} fileName={'manuel_saavedra.pdf'} />
         </div>
       </div>
 
