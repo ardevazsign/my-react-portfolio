@@ -1,7 +1,8 @@
 .socialsList {
   display: flex;
   align-items: center;
-  gap: 15px;
+  justify-content: center;
+  gap: 4px;
   margin-top: 10px;
   margin-bottom: 20px;
 }
