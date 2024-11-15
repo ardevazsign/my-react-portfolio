@@ -33,6 +33,9 @@
     height: 85vh;
     margin-right: auto;
   }
+  @media (max-width: 415px) {
+    padding-left: 10px;
+  }
 }
 
 .homeDetails {
@@ -46,6 +49,9 @@
   @media (min-width: 768px) {
     align-items: flex-start;
   }
+  @media (max-width: 415px) {
+    padding-right: 35px;
+  }
 }
 
 .homeName {
@@ -56,7 +62,8 @@
     font-size: 60px;
   }
   @media (max-width: 415px) {
-    font-size: 30px;
+    font-size: 26px;
+    text-align: center;
   }
 }
 
@@ -71,6 +78,7 @@
   @media (max-width: 410px) {
     font-size: 14px;
     margin: 0;
+    text-align: center;
   }
 }
 .socialHolder {
